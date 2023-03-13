@@ -1,0 +1,29 @@
+{
+  "prettier.requireConfig": true,
+  "eslint.packageManager": "yarn",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 120,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.formatOnPaste": true,
+  "cSpell.words": [
+    "swiper"
+  ]
+}
